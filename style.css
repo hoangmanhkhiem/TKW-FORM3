@@ -1,24 +1,23 @@
-
-    table{
+table{
         width: 550px;
         background-color: rgb(216, 216, 216);
-    }
-    tr,td{
+}
+tr,td{
         padding: 5px;
         margin: 10px;
-    }
-    td:first-child{
+}
+td:first-child{
         width: 100px;
-    }
-    td:nth-child(2)::before{
+}
+td:nth-child(2)::before{
         content: "*";
         color: red;
         padding-right: 5px;
-    }
-    .note{
+}
+.note{
         font-size: 12px;
         color: rgb(118, 150, 255);
-    }
-    tr.note td:first-child::after{
+}
+tr.note td:first-child::after{
         content: none;
-    }
+}
