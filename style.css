@@ -1,5 +1,6 @@
 table{
         width: 550px;
+        margin: 0 auto;
         background-color: rgb(216, 216, 216);
 }
 tr,td{
